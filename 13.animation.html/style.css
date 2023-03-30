@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sec1 {
+  height: 100vh;
+  border: 1px solid green;
+}
+
+.boxes {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  transition: 0.7s;
+}
+
+h1 {
+  display: none;
+}
+
+.box:hover h1 {
+  display: block;
+}
+.box:hover h3 {
+  display: none;
+}
+
+.box-name {
+  background-color: red;
+  animation-name: name;
+}
+.box-name:hover {
+  animation-duration: 2s;
+  animation-name: box-name;
+  /* animation-timing-function: ease-in; */
+}
+.box-surname {
+  background-color: darkgreen;
+}
+
+.box-surname:hover {
+  animation-duration: 2s;
+  transform: translate(30%, -90%);
+}
+.box-year-of-birth {
+  background-color: darkmagenta;
+}
+.box-year-of-birth:hover {
+  animation-name: birth;
+  animation-duration: 2s;
+}
+.box-city:hover {
+  animation-name: city;
+  animation-duration: 2s;
+}
+
+.box-city {
+  background-color: chocolate;
+  transform: skew(20);
+}
+
+.rotate {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 150px; */
+  animation: rotate 100s infinite linear ;
+}
+.sec2 {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec2 .earth{
+  width: 200px;
+  animation: earth 10s infinite linear;
+}
+.sec2 .lunar{
+  width: 100px;
+  position: relative;
+  top: 20%;
+  left: 40%;
+}
+
+@keyframes box-name {
+  from {
+    transform: scale (1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+@keyframes birth {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+@keyframes city {
+  from {
+    transform: skewX(0deg);
+  }
+  to {
+    transform: skewX(20deg);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes earth {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
