@@ -1,0 +1,16 @@
+header {
+  background-color: black;
+  nav {
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 20px;
+      li {
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}

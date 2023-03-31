@@ -1,0 +1,61 @@
+section {
+  height: 100vh;
+  border: 2px solid black;
+  width: 100%;
+  .container {
+    .boxes {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      .box {
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+        border: 1px dashed black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.9s;
+        &:hover{
+          transform: rotateX(360deg);
+        }
+        &:hover h3{
+          display: none;
+        }
+        h3 {
+          display: block;
+        }
+      }
+      .box1 {
+        &:hover {
+          background-image: url(./minions2.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+      .box1 {
+        &:hover {
+          background-image: url(./minions2.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+      .box2 {
+        &:hover {
+          background-image: url(./minions3.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+      .box3 {
+        &:hover {
+          background-image: url(./minions1.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+}
