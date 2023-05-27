@@ -1,0 +1,116 @@
+
+.title{
+    color: rgb(79, 77, 43);
+    text-align: center;
+}
+
+section{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec1{
+    background-color: rgb(121, 142, 142);
+}
+#sec1 input:focus{
+    background-color: #000;
+    color: #fff;
+}
+
+
+#sec1 input:focus::placeholder{
+    color: red;
+}
+  form input{
+    margin-bottom: 20px;
+  }
+  #sec1 form{
+    margin-right: 90px;
+  }
+
+  form h1{
+    text-align: center;
+  }
+
+button.submit{
+    color: blue;
+    background-color: darkgoldenrod;
+}
+  
+
+label.firstname{
+    color: indigo;
+}
+
+label.lastName{
+    color: green;
+}
+
+label.email{
+    color: blueviolet;
+}
+
+
+label.password{
+    color: gold;
+}
+
+
+#sec2{
+    background-color: bisque;
+}
+
+#sec2 form{
+    margin-left: 50px;
+  }
+
+  
+#sec2 img{
+    margin-top: 50px;
+}
+
+#sec2 .date{
+    color: darkorchid;
+}
+
+#sec2 button{
+    background-color: greenyellow;
+}
+
+#sec2 .age{
+    color: rgb(134, 99, 8);
+}
+
+
+
+#sec3{
+ 
+    background-color: rgb(117, 150, 139);
+    }
+    
+    ul p{
+        color: brown;
+    }
+    ul li{
+        color: green;
+    }
+    
+    ol+p{
+        color: blue;
+    }
+    
+
+    button:hover{
+        color: maroon;
+        background-color: cornsilk !important
+    }
+
+   input[type=radio]{
+        accent-color: green  !important;
+    }
+
+   textarea{
+    resize: none;
+   }

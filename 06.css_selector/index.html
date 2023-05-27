@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Css Selectors</h1>
+    <section id="sec1">
+      <div>
+        <form action="#sec2">
+          <h1>Regiter Form</h1>
+          <label for="firstName" class="">First Name:</label>
+          <br />
+          <input type="text" placeholder="Enter a name..." size="50" required />
+          <br />
+          <label for="lastName" class="">Last Name:</label>
+          <br />
+          <input type="text" placeholder="Enter a name..." size="50" required />
+          <br />
+          <label for="email" class="">Email:</label>
+          <br />
+          <input type="text" placeholder="Enter a name..." size="50" required />
+          <br />
+          <label for="firstName" class="">Password:</label>
+          <br />
+          <input type="text" placeholder="Enter a name..." size="50" required />
+          <br />
+          <input type="checkbox" required />
+          <label for="">Accept all requirments</label>
+          <br />
+          <input name="radio" type="radio" required />
+          <label for="">Teacher</label>
+          <input name="radio" type="radio" required />
+          <label for="">Student</label>
+          <input name="radio" type="radio" required />
+          <label for="">Other</label>
+          <br />
+          <button class="submit" type="submit">Sign in</button>
+          <p>Register maybe later: <a href="#sec2">Skip</a></p>
+        </form>
+      </div>
+      <div>
+        <img src="./rocket.png" width="450" height="450" alt="" />
+      </div>
+    </section>
+    <section id="sec2">
+      <img src="./rocket.png" width="450" height="450" alt="" />
+      <form action="#sec3">
+        <h1>User Info</h1>
+        <h3>Who are u?</h3>
+        <textarea
+          required
+          name=""
+          id=""
+          cols="70"
+          rows="10"
+          placeholder="Add some info about yourself..."
+        ></textarea>
+        <br />
+        <br />
+        <input type="file" required />
+        <br />
+        <label for="date" class="">Choose date:</label>
+        <input type="date" required />
+        <br />
+        <label for="age" class="age">Age:</label>
+        <input type="number" id="age" required placeholder="you age..." />
+        <br />
+        <button type="submit">Save</button>
+        <p>Maybe later): <a href="#sec3">Skip</a></p>
+        <p>Go back and sign in: <a href="#sec1">Sign in</a></p>
+      </form>
+    </section>
+    <section id="sec3">
+      <div class="cities">
+        <h1>Change tags' color without class name and id.</h1>
+        <ul>
+          <p>CITIES</p>
+        </ul>
+
+        <ul>
+          <li>Shusha</li>
+          <li>Qusar</li>
+          <li>Baku</li>
+        </ul>
+
+        <ol>
+          <li>Ismayilli</li>
+          <li>Shamaki</li>
+          <li>Sirvan</li>
+          <li>Qzag</li>
+        </ol>
+
+        <p>Lorem1</p>
+        <p>Lorem2</p>
+        <p><a href="#sec1">Go back</a> to first section!</p>
+      </div>
+    </section>
+  </body>
+</html>
