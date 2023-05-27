@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec2{
+    background-image: url(./img2\ \(1\).webp);
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+header{
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 22px;
+}
+a{
+    font-size: 21px;
+    
+}
+.div3{
+    margin: 40px;
+    font-size: 18px;
+}
+.sec3{
+    background-image: url(./wallpaper1.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.sec4{
+    background-image: url(./wallpaper3.jpg);
+    height: 100%;
+    background-attachment: fixed;
+}
+.sec5{
+    display: flex;
+
+}
+.div4{
+    background-image: url(./wallpaper5.jpg);
+    height: 100vh;
+    width: 50%;
+    
+    background-size: cover;
+   
+}
+.div5{
+    background-image: url(./wallpaper6.jpg);
+    height: 100vh;
+    width: 50%;
+  
+    background-size: cover;
+}
